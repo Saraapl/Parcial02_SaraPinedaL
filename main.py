@@ -25,7 +25,7 @@ def procesar_numero(n):
 
 @app.route('/')
 def inicio():
-    return "Bienvenido. Usa la URL /<número> para calcular el factorial."
+    return "Bienvenido, ponga el número en la URL para calcular su factorial. y saber si es par o impar."
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
